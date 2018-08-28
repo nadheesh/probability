@@ -85,6 +85,7 @@ py_library(
         "internal/util.py",
     ],
     srcs_version = "PY2AND3",
+    visibility = ["//tensorflow_probability:__pkg__"],
     deps = [
         # numpy dep,
         # tensorflow dep,
